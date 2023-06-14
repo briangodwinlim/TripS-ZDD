@@ -1,0 +1,62 @@
+graphillion_example.o: \
+ ../../include/tdzdd/DdSpecOp.hpp \
+ ../../include/tdzdd/op/BinaryOperation.hpp \
+ ../../include/tdzdd/op/../DdSpec.hpp \
+ ../../include/tdzdd/op/../dd/DdBuilder.hpp \
+ ../../include/tdzdd/op/../dd/DdSweeper.hpp \
+ ../../include/tdzdd/op/../dd/Node.hpp \
+ ../../include/tdzdd/op/../dd/NodeTable.hpp \
+ ../../include/tdzdd/op/../dd/DataTable.hpp \
+ ../../include/tdzdd/op/../dd/../util/MyVector.hpp \
+ ../../include/tdzdd/op/../dd/../util/MessageHandler.hpp \
+ ../../include/tdzdd/op/../dd/../util/ResourceUsage.hpp \
+ ../../include/tdzdd/op/../dd/../util/MemoryPool.hpp \
+ ../../include/tdzdd/op/../dd/../util/MyHashTable.hpp \
+ ../../include/tdzdd/op/../dd/../util/MyList.hpp \
+ ../../include/tdzdd/op/../dd/DepthFirstSearcher.hpp \
+ ../../include/tdzdd/op/../util/demangle.hpp \
+ ../../include/tdzdd/op/Lookahead.hpp \
+ ../../include/tdzdd/op/Unreduction.hpp \
+ ../../include/tdzdd/DdStructure.hpp ../../include/tdzdd/DdEval.hpp \
+ ../../include/tdzdd/dd/DdReducer.hpp \
+ ../../include/tdzdd/eval/Cardinality.hpp \
+ ../../include/tdzdd/eval/../util/BigNumber.hpp \
+ ../../include/tdzdd/spec/DegreeConstraint.hpp \
+ ../../include/tdzdd/spec/../util/Graph.hpp \
+ ../../include/tdzdd/spec/../util/IntSubset.hpp \
+ ../../include/tdzdd/spec/FrontierBasedSearch.hpp \
+ ../../include/tdzdd/spec/GraphillionZdd.hpp \
+ ../../include/tdzdd/spec/SapporoZdd.hpp \
+ ../../include/tdzdd/spec/SizeConstraint.hpp \
+ ../../include/tdzdd/eval/ToZBDD.hpp
+graphillion_example-debug.o: \
+ ../../include/tdzdd/DdSpecOp.hpp \
+ ../../include/tdzdd/op/BinaryOperation.hpp \
+ ../../include/tdzdd/op/../DdSpec.hpp \
+ ../../include/tdzdd/op/../dd/DdBuilder.hpp \
+ ../../include/tdzdd/op/../dd/DdSweeper.hpp \
+ ../../include/tdzdd/op/../dd/Node.hpp \
+ ../../include/tdzdd/op/../dd/NodeTable.hpp \
+ ../../include/tdzdd/op/../dd/DataTable.hpp \
+ ../../include/tdzdd/op/../dd/../util/MyVector.hpp \
+ ../../include/tdzdd/op/../dd/../util/MessageHandler.hpp \
+ ../../include/tdzdd/op/../dd/../util/ResourceUsage.hpp \
+ ../../include/tdzdd/op/../dd/../util/MemoryPool.hpp \
+ ../../include/tdzdd/op/../dd/../util/MyHashTable.hpp \
+ ../../include/tdzdd/op/../dd/../util/MyList.hpp \
+ ../../include/tdzdd/op/../dd/DepthFirstSearcher.hpp \
+ ../../include/tdzdd/op/../util/demangle.hpp \
+ ../../include/tdzdd/op/Lookahead.hpp \
+ ../../include/tdzdd/op/Unreduction.hpp \
+ ../../include/tdzdd/DdStructure.hpp ../../include/tdzdd/DdEval.hpp \
+ ../../include/tdzdd/dd/DdReducer.hpp \
+ ../../include/tdzdd/eval/Cardinality.hpp \
+ ../../include/tdzdd/eval/../util/BigNumber.hpp \
+ ../../include/tdzdd/spec/DegreeConstraint.hpp \
+ ../../include/tdzdd/spec/../util/Graph.hpp \
+ ../../include/tdzdd/spec/../util/IntSubset.hpp \
+ ../../include/tdzdd/spec/FrontierBasedSearch.hpp \
+ ../../include/tdzdd/spec/GraphillionZdd.hpp \
+ ../../include/tdzdd/spec/SapporoZdd.hpp \
+ ../../include/tdzdd/spec/SizeConstraint.hpp \
+ ../../include/tdzdd/eval/ToZBDD.hpp

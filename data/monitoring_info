@@ -1,0 +1,122 @@
+{
+    "aws-us-east-2": {
+        "network_latency": {
+            "aws-us-east-2": 0,
+            "aws-us-west": 52.5,
+            "aws-us-east": 13,
+            "aws-us-west-2": 72
+        },
+        "storage_latency": {
+            "s3": {
+                "put_latency": 24,
+                "get_latency": 13
+            },
+            "ebs-st1": {
+                "put_latency": 11,
+                "get_latency": 10
+            },
+            "ebs-gp2": {
+                "put_latency": 10,
+                "get_latency": 10
+            },
+            "ebs-io1": {
+                "put_latency": 10,
+                "get_latency": 10
+            },
+            "ebs-sc1": {
+                "put_latency": 10,
+                "get_latency": 10
+            }
+        }
+    },
+    "aws-us-west": {
+        "network_latency": {
+            "aws-us-east-2": 52,
+            "aws-us-west": 0,
+            "aws-us-east": 71,
+            "aws-us-west-2": 21.5
+        },
+        "storage_latency": {
+            "s3": {
+                "put_latency": 34,
+                "get_latency": 16
+            },
+            "ebs-st1": {
+                "put_latency": 11,
+                "get_latency": 10
+            },
+            "ebs-gp2": {
+                "put_latency": 10,
+                "get_latency": 10
+            },
+            "ebs-io1": {
+                "put_latency": 10,
+                "get_latency": 10
+            },
+            "ebs-sc1": {
+                "put_latency": 10,
+                "get_latency": 10.5
+            }
+        }
+    },
+    "aws-us-east": {
+        "network_latency": {
+            "aws-us-east-2": 13,
+            "aws-us-west": 69,
+            "aws-us-east": 0,
+            "aws-us-west-2": 89
+        },
+        "storage_latency": {
+            "s3": {
+                "put_latency": 41.5,
+                "get_latency": 16.5
+            },
+            "ebs-st1": {
+                "put_latency": 10,
+                "get_latency": 11
+            },
+            "ebs-gp2": {
+                "put_latency": 10,
+                "get_latency": 10
+            },
+            "ebs-io1": {
+                "put_latency": 10,
+                "get_latency": 10
+            },
+            "ebs-sc1": {
+                "put_latency": 10,
+                "get_latency": 10.5
+            }
+        }
+    },
+    "aws-us-west-2": {
+        "network_latency": {
+            "aws-us-east-2": 72,
+            "aws-us-west": 22,
+            "aws-us-east": 76,
+            "aws-us-west-2": 0
+        },
+        "storage_latency": {
+            "s3": {
+                "put_latency": 33,
+                "get_latency": 12
+            },
+            "ebs-st1": {
+                "put_latency": 25,
+                "get_latency": 10
+            },
+            "ebs-gp2": {
+                "put_latency": 11,
+                "get_latency": 10
+            },
+            "ebs-io1": {
+                "put_latency": 10,
+                "get_latency": 10
+            },
+            "ebs-sc1": {
+                "put_latency": 10,
+                "get_latency": 10
+            }
+        }
+    }
+}

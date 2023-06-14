@@ -1,0 +1,21 @@
+{
+	"object_size": 8.190,
+	"access_info": {
+		"aws-us-east": {
+			"get_access_cnt":95,
+			"put_access_cnt":5
+		},
+		"aws-us-east-2": {
+			"get_access_cnt":1000,
+			"put_access_cnt":10
+		},
+		"aws-us-west": {
+			"get_access_cnt":950,
+			"put_access_cnt":50
+		},
+		"aws-us-west-2": {
+			"get_access_cnt":10,
+			"put_access_cnt":1
+		}
+	}
+}

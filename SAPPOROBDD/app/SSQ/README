@@ -1,0 +1,9 @@
+manipulator for Sets of SeQuences
+
+Command syntax:
+ ssq [-ZDDsize] [filename]
+
+ssq           executable file.
+ssq.help      help text file referred by perm.
+ssq-man.pdf   program manual (in Japanese).
+README        this file.

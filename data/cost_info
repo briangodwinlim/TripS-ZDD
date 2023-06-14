@@ -1,0 +1,214 @@
+{
+    "aws-us-east": {
+        "region_name": "N. Virginia",
+        "region": "US East",
+        "provider": "Amazon",
+        "network_cost": {
+            "aws-us-east": 0,
+            "aws-us-east-2": 0.01,
+            "aws-us-west": 0.02,
+            "aws-us-west-2": 0.02
+        },
+        "storage_cost": {
+            "ebs-gp2": {
+                "storage_cost": 0.1,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-io1": {
+                "storage_cost": 0.125,
+                "get_request_cost": 0.072,
+                "put_request_cost": 0.072,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-st1": {
+                "storage_cost": 0.045,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-sc1": {
+                "storage_cost": 0.025,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "s3": {
+                "storage_cost": 0.023,
+                "get_request_cost": 0.0000004,
+                "put_request_cost": 0.000005,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            }
+        }
+    },
+    "aws-us-east-2": {
+        "region_name": "Ohio",
+        "region": "US East 2",
+        "provider": "Amazon",
+        "network_cost": {
+            "aws-us-east": 0.01,
+            "aws-us-east-2": 0,
+            "aws-us-west": 0.02,
+            "aws-us-west-2": 0.02
+        },
+        "storage_cost": {
+            "ebs-gp2": {
+                "storage_cost": 0.1,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-io1": {
+                "storage_cost": 0.125,
+                "get_request_cost": 0.065,
+                "put_request_cost": 0.065,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-st1": {
+                "storage_cost": 0.045,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-sc1": {
+                "storage_cost": 0.025,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "s3": {
+                "storage_cost": 0.023,
+                "get_request_cost": 0.0000004,
+                "put_request_cost": 0.000005,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            }
+        }
+    },
+    "aws-us-west": {
+        "region_name": "N. California",
+        "region": "US West",
+        "provider": "Amazon",
+        "network_cost": {
+            "aws-us-east": 0.02,
+            "aws-us-east-2": 0.02,
+            "aws-us-west": 0,
+            "aws-us-west-2": 0.02
+        },
+        "storage_cost": {
+            "ebs-gp2": {
+                "storage_cost": 0.12,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-io1": {
+                "storage_cost": 0.138,
+                "get_request_cost": 0.072,
+                "put_request_cost": 0.072,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-st1": {
+                "storage_cost": 0.054,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-sc1": {
+                "storage_cost": 0.03,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "s3": {
+                "storage_cost": 0.026,
+                "get_request_cost": 4.4e-7,
+                "put_request_cost": 0.0000055,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            }
+        }
+    },
+    "aws-us-west-2": {
+        "region_name": "Oregon",
+        "region": "US West 2",
+        "provider": "Amazon",
+        "network_cost": {
+            "aws-us-east": 0.02,
+            "aws-us-east-2": 0.02,
+            "aws-us-west": 0.02,
+            "aws-us-west-2": 0
+        },
+        "storage_cost": {
+            "ebs-gp2": {
+                "storage_cost": 0.1,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-io1": {
+                "storage_cost": 0.125,
+                "get_request_cost": 0.065,
+                "put_request_cost": 0.065,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-st1": {
+                "storage_cost": 0.045,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "ebs-sc1": {
+                "storage_cost": 0.025,
+                "get_request_cost": 0,
+                "put_request_cost": 0,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            },
+            "s3": {
+                "storage_cost": 0.023,
+                "get_request_cost": 0.0000004,
+                "put_request_cost": 0.000005,
+                "del_request_cost": 0,
+                "data_retrieval": 0,
+                "data_write": 0
+            }
+        }
+    }
+}

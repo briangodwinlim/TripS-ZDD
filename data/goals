@@ -1,0 +1,7 @@
+{
+    "get_sla": 200,
+    "put_sla": 300,
+    "degree_of_fault": 1,
+    "center": "aws-us-east",
+    "lc": 2
+}
